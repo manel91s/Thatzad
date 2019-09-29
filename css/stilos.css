@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: 'Muli'
+}
+
+body {
+    
+    background-image:url(../img/fondo_thatz.png);
+    background-position:center;
+    background-size: cover;
+    
+    
+   
+}
+
+
+
+h3 {
+    text-align:center;
+    font-size:18px;
+    font-weight:700px;
+    
+}
+
+div#contenedor {
+    width:100%;
+    max-width:1600px;
+    max-width:1600px;
+    height:100vh;
+    margin:auto;
+    
+
+
+}
+
+div#centrado {
+    display:flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+   
+  
+}
+
+img#bit {
+    margin-bottom:200px;
+}
+
+
+input {
+    margin-top: 20px;
+    width:500px;
+    height:40px;
+    border-radius:5px;
+    background-color:transparent;
+}
+
+.buscar {
+    
+    width:527px;
+    background-color: #00bde0;
+    font-size: 24px;
+}
+
+
+
+
+div#contenedor-buscar {
+    position:relative;
+    margin:50px;
+    
+    
+}
+
+img#posicion {
+    
+    width:30px;
+    position:absolute;
+    right:8px;
+    bottom:5px;
+    
+
+
+}
+
+
