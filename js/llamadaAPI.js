@@ -32,7 +32,7 @@ function codigoPostal() {
         })
         .then(function (datos) {
             //montar la lista de invitados
-            console.log(datos)
+            
             
             
             if(datos[0]=='00') {
@@ -42,7 +42,7 @@ function codigoPostal() {
                 localStorage.setItem('codigopostal',cp)
                 location.href = "resultado.html"
             }else {
-                location.href = "thatzad.html"
+                alert("Codigo postal no existe")
                 
             }
             

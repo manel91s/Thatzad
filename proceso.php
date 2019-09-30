@@ -34,7 +34,10 @@ switch ($opcion) {
     
                 $array = json_decode($respuesta,true);
 
-                
+                if($array['cod']=='404') {
+                    $ciudades = 'Codigo Postal no existe';
+
+                }else{
     
                 for($i=0; $i<sizeof($array['list']); $i=$i+8) {
                     
@@ -58,6 +61,7 @@ switch ($opcion) {
                     $mensaje = $temperaturas->insertarTemperaturas($cp,$temps[0],$temps[1][0]['main']['temp']);
                     
                 }
+            }
                 
                
                 echo json_encode($ciudades);
