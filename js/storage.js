@@ -41,11 +41,16 @@ window.onload=function() {
         //console.log(pais)
 
         listatemperaturas(arrayresultado2,pais,codigoPostal)
+       
 
-        
-}
+    }else{
+        location.href = "thatzad.html"
+    }
+}  
 
-}
+
+
+
 
 function consultarTemperaturas() {
 

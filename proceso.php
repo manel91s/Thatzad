@@ -33,6 +33,8 @@ switch ($opcion) {
                 curl_close($ch);
     
                 $array = json_decode($respuesta,true);
+
+                
     
                 for($i=0; $i<sizeof($array['list']); $i=$i+8) {
                     

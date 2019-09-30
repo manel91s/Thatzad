@@ -32,14 +32,17 @@ function codigoPostal() {
         })
         .then(function (datos) {
             //montar la lista de invitados
+            console.log(datos)
             
             
             if(datos[0]=='00') {
+
 
                 localStorage.setItem('temperatura',datos[1]);
                 localStorage.setItem('codigopostal',cp)
                 location.href = "resultado.html"
             }else {
+                location.href = "thatzad.html"
                 
             }
             
